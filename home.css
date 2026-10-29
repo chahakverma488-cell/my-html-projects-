@@ -1,0 +1,53 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.main{
+    background-color:lightblue;
+    text-align: center;
+    cursor: pointer;
+
+}
+.A{
+    color: brown;
+    cursor: pointer;
+}
+.header{
+    position: absolute;
+    text-align: center; 
+    color: rgb(7, 8, 8);
+    background-color: rgb(223, 239, 250);
+    width: 50%;
+    cursor: pointer;
+    
+    gap: 60px;
+    
+    border-radius: 12px;
+}
+.footer{
+    position: absolute;
+    text-align: center;
+    color:black;
+    background-color:grey;
+    width: 50%;
+    font-size: 35px;
+    
+    cursor: pointer;
+}
+.B{
+    position: absolute;
+    text-align: right; 
+    width: 100%;
+    max-width: 400px;
+    display: block;
+    margin-left: 50%;
+    margin-bottom: auto;
+   
+}
+
+
+.maindiv{
+    position: relative;
+}
+
